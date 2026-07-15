@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>الكابتن أحمد سالم | مدرب لياقة بدنية ومدرب شخصي معتمد</title>
+<meta name="description" content="الموقع الرسمي للكابتن أحمد سالم، مدرب لياقة بدنية ومدرب شخصي معتمد، متخصص في التدريب الشخصي وبناء الأجسام والتغذية الرياضية.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div class="preloader" id="preloader">
+  <div class="mono-badge">AS</div>
+  <div class="preloader-track"><div class="preloader-bar" id="preloaderBar"></div></div>
+  <div class="preloader-label">LOADING EXPERIENCE</div>
+</div>
+
+<!-- ============ CURSOR ============ -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ============ SCROLL PROGRESS ============ -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ============ NAVBAR ============ -->
+<nav class="navbar" id="navbar">
+  <a href="#home" class="logo">
+    <span class="mono-badge">AS</span>
+    <span class="logo-text">Ahmed <em>Salem</em></span>
+  </a>
+  <div class="nav-links" id="navLinks">
+    <a href="#home" class="nav-link">الرئيسية</a>
+    <a href="#about" class="nav-link">من أنا</a>
+    <a href="#certs" class="nav-link">الشهادات</a>
+    <a href="#specs" class="nav-link">التخصصات</a>
+    <a href="#gallery" class="nav-link">المعرض</a>
+    <a href="#contact" class="nav-link btn btn-primary nav-cta">تواصل معي</a>
+  </div>
+  <button class="nav-toggle" id="navToggle" aria-label="القائمة"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home" class="nav-link">الرئيسية</a>
+  <a href="#about" class="nav-link">من أنا</a>
+  <a href="#certs" class="nav-link">الشهادات</a>
+  <a href="#specs" class="nav-link">التخصصات</a>
+  <a href="#gallery" class="nav-link">المعرض</a>
+  <a href="#contact" class="nav-link">تواصل معي</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <video class="hero-bg-video" autoplay muted loop playsinline>
+    <source src="ahmed-hero-bg.mp4" type="video/mp4">
+  </video>
+  <div class="hero-vignette"></div>
+  <div class="hero-orbit o1"></div>
+  <div class="hero-orbit o2"></div>
+
+  <div class="hero-eyebrow-en">CERTIFIED PERSONAL TRAINER</div>
+  <div class="hero-eyebrow-ar reveal">كابتن ومدرب لياقة بدنية معتمد</div>
+
+  <div class="hero-stage reveal-scale">
+    <div class="hero-frame">
+      <div class="hero-frame-content">
+        <i class="fa-solid fa-person ph-icon"></i>
+        <div class="ph-title">صورة الكابتن هنا</div>
+        <div class="ph-sub">بدون خلفية (PNG شفاف) — جودة عالية 4K</div>
+      </div>
+    </div>
+    <div class="hero-chip c1"><i class="fa-solid fa-medal"></i> +8 سنوات خبرة</div>
+    <div class="hero-chip c2"><i class="fa-solid fa-users"></i> +500 متدرب</div>
+  </div>
+
+  <h1 class="hero-name reveal">Ahmed <span class="hl">Salem</span></h1>
+  <p class="hero-tagline" id="heroTagline"></p>
+
+  <div class="hero-actions reveal">
+    <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-bolt"></i> احجز جلستك الآن</a>
+    <a href="#about" class="btn btn-ghost">تعرف على قصتي</a>
+  </div>
+
+  <div class="scroll-hint"><span class="mouse-shape"></span> مرر للأسفل</div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee-band">
+  <div class="marquee-track">
+    <span>القوة <i class="fa-solid fa-circle"></i></span>
+    <span>الانضباط <i class="fa-solid fa-circle"></i></span>
+    <span>الالتزام <i class="fa-solid fa-circle"></i></span>
+    <span>تحوّل حقيقي <i class="fa-solid fa-circle"></i></span>
+    <span>نتائج تتكلم <i class="fa-solid fa-circle"></i></span>
+    <span>الإصرار <i class="fa-solid fa-circle"></i></span>
+    <span>القوة <i class="fa-solid fa-circle"></i></span>
+    <span>الانضباط <i class="fa-solid fa-circle"></i></span>
+    <span>الالتزام <i class="fa-solid fa-circle"></i></span>
+    <span>تحوّل حقيقي <i class="fa-solid fa-circle"></i></span>
+    <span>نتائج تتكلم <i class="fa-solid fa-circle"></i></span>
+    <span>الإصرار <i class="fa-solid fa-circle"></i></span>
+  </div>
+</div>
+
+<div class="pulse-divider" data-pulse>
+  <svg viewBox="0 0 1200 100" preserveAspectRatio="none"><path d="M0,50 H90 L110,50 L130,15 L155,85 L178,50 H320 L340,50 L360,15 L385,85 L408,50 H600 L620,50 L640,15 L665,85 L688,50 H830 L850,50 L870,15 L895,85 L918,50 H1200"></path></svg>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section id="about">
+  <div class="container about-grid">
+    <div class="ph-frame about-photo reveal-right">
+      <div class="ph-badge"><i class="fa-solid fa-camera"></i> صورة</div>
+      <i class="fa-solid fa-user ph-icon"></i>
+      <div class="ph-title">صورة شخصية احترافية</div>
+      <div class="ph-sub">مقاس عمودي 3:4 — جودة عالية</div>
+    </div>
+    <div class="about-text reveal-left">
+      <div class="eyebrow">ABOUT THE COACH</div>
+      <h2 class="section-title">من هو الكابتن أحمد سالم؟</h2>
+      <p>مدرب لياقة بدنية ومدرب شخصي معتمد، بخبرة تمتد لسنوات طويلة في تدريب الأفراد والمجموعات على حدٍ سواء. أؤمن بأن التحوّل الحقيقي يبدأ من الداخل، ولهذا أُصمّم لكل متدرّب برنامجًا خاصًا يجمع بين الأساس العلمي والانضباط والدافع المستمر.</p>
+      <p>رحلتي بدأت من شغفي الشخصي بالرياضة، وتطوّرت إلى مسيرة مهنية متكاملة أساعد فيها الآخرين على الوصول لأفضل نسخة من أنفسهم، سواء كان هدفهم خسارة الوزن، بناء العضلات، أو تحسين الأداء الرياضي العام.</p>
+      <div class="about-highlights">
+        <div class="hl-card"><i class="fa-solid fa-calendar-check"></i><span class="hl-num">+8</span><span class="hl-label">سنوات خبرة</span></div>
+        <div class="hl-card"><i class="fa-solid fa-user-group"></i><span class="hl-num">+500</span><span class="hl-label">متدرب ومتدربة</span></div>
+        <div class="hl-card"><i class="fa-solid fa-award"></i><span class="hl-num">+15</span><span class="hl-label">شهادة معتمدة</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="pulse-divider" data-pulse>
+  <svg viewBox="0 0 1200 100" preserveAspectRatio="none"><path d="M0,50 H90 L110,50 L130,15 L155,85 L178,50 H320 L340,50 L360,15 L385,85 L408,50 H600 L620,50 L640,15 L665,85 L688,50 H830 L850,50 L870,15 L895,85 L918,50 H1200"></path></svg>
+</div>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section id="certs" class="band-alt">
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow" style="justify-content:center;">CERTIFICATIONS</div>
+      <h2 class="section-title">الشهادات والاعتمادات</h2>
+      <p class="section-sub">مسيرة مهنية مبنية على أساس علمي معتمد من جهات موثوقة</p>
+    </div>
+    <div class="certs-grid" id="certsGrid">
+      <div class="cert-card reveal-3d tilt">
+        <div class="ph-frame cert-frame"><i class="fa-solid fa-award ph-icon"></i><div class="ph-title">صورة الشهادة</div></div>
+        <div class="cert-body">
+          <div class="cert-title">شهادة التدريب الشخصي</div>
+          <span class="cert-issuer">اسم الجهة المانحة</span>
+        </div>
+      </div>
+      <div class="cert-card reveal-3d tilt">
+        <div class="ph-frame cert-frame"><i class="fa-solid fa-award ph-icon"></i><div class="ph-title">صورة الشهادة</div></div>
+        <div class="cert-body">
+          <div class="cert-title">شهادة التغذية الرياضية</div>
+          <span class="cert-issuer">اسم الجهة المانحة</span>
+        </div>
+      </div>
+      <div class="cert-card reveal-3d tilt">
+        <div class="ph-frame cert-frame"><i class="fa-solid fa-award ph-icon"></i><div class="ph-title">صورة الشهادة</div></div>
+        <div class="cert-body">
+          <div class="cert-title">شهادة بناء الأجسام</div>
+          <span class="cert-issuer">اسم الجهة المانحة</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="archive-teaser reveal">
+      <p class="archive-teaser-line">وهناك الكثير أيضًا... رحلة حافلة بالاعتماد والتميز</p>
+      <a href="certificates.html" class="btn btn-ghost archive-btn">
+        <i class="fa-solid fa-box-archive"></i>
+        سجل التميّز الكامل
+        <i class="fa-solid fa-chevron-left archive-btn-arrow"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SPECIALIZATIONS ============ -->
+<section id="specs">
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow" style="justify-content:center;">AREAS OF EXPERTISE</div>
+      <h2 class="section-title">التخصصات</h2>
+      <p class="section-sub">خدمات تدريبية متكاملة تناسب كل الأهداف والمستويات</p>
+    </div>
+    <div class="specs-grid" id="specsGrid">
+      <div class="spec-card reveal-3d tilt">
+        <div class="spec-icon"><i class="fa-solid fa-dumbbell"></i></div>
+        <div class="spec-title">تدريب شخصي</div>
+        <p class="spec-desc">برامج تدريب فردية مخصصة تناسب هدفك ومستواك بدقة.</p>
+      </div>
+      <div class="spec-card reveal-3d tilt">
+        <div class="spec-icon"><i class="fa-solid fa-weight-scale"></i></div>
+        <div class="spec-title">تخسيس ولياقة بدنية</div>
+        <p class="spec-desc">خطط علمية لحرق الدهون وتحسين اللياقة العامة بأمان وفعالية.</p>
+      </div>
+      <div class="spec-card reveal-3d tilt">
+        <div class="spec-icon"><i class="fa-solid fa-fire"></i></div>
+        <div class="spec-title">بناء العضلات وتضخيم</div>
+        <p class="spec-desc">برامج تضخيم متقدمة لزيادة الكتلة العضلية وتحسين الشكل الرياضي.</p>
+      </div>
+      <div class="spec-card reveal-3d tilt">
+        <div class="spec-icon"><i class="fa-solid fa-apple-whole"></i></div>
+        <div class="spec-title">التغذية الرياضية</div>
+        <p class="spec-desc">أنظمة غذائية متكاملة تدعم أهدافك وتتماشى مع نمط حياتك.</p>
+      </div>
+      <div class="spec-card reveal-3d tilt">
+        <div class="spec-icon"><i class="fa-solid fa-people-group"></i></div>
+        <div class="spec-title">تدريب جماعي</div>
+        <p class="spec-desc">جلسات جماعية محفزة تجمع بين المتعة والانضباط والنتائج.</p>
+      </div>
+      <div class="spec-card reveal-3d tilt">
+        <div class="spec-icon"><i class="fa-solid fa-laptop"></i></div>
+        <div class="spec-title">تدريب أونلاين</div>
+        <p class="spec-desc">متابعة وبرامج تدريب كاملة عن بُعد أينما كنت.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats-section">
+  <div class="stats-watermark"><svg viewBox="0 0 1200 100" preserveAspectRatio="none"><path d="M0,50 H90 L110,50 L130,15 L155,85 L178,50 H320 L340,50 L360,15 L385,85 L408,50 H600 L620,50 L640,15 L665,85 L688,50 H830 L850,50 L870,15 L895,85 L918,50 H1200"></path></svg></div>
+  <div class="container stats-grid" id="statsGrid">
+    <div class="stat-item reveal"><i class="fa-solid fa-calendar-days"></i><div class="stat-num"><span class="count" data-target="8">0</span><span class="suf">+</span></div><div class="stat-label">سنوات خبرة</div></div>
+    <div class="stat-item reveal"><i class="fa-solid fa-user-group"></i><div class="stat-num"><span class="count" data-target="500">0</span><span class="suf">+</span></div><div class="stat-label">متدرب ومتدربة</div></div>
+    <div class="stat-item reveal"><i class="fa-solid fa-medal"></i><div class="stat-num"><span class="count" data-target="15">0</span><span class="suf">+</span></div><div class="stat-label">شهادة معتمدة</div></div>
+    <div class="stat-item reveal"><i class="fa-solid fa-trophy"></i><div class="stat-num"><span class="count" data-target="100">0</span><span class="suf">%</span></div><div class="stat-label">التزام بتحقيق النتائج</div></div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section id="gallery" class="band-alt">
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow" style="justify-content:center;">RESULTS GALLERY</div>
+      <h2 class="section-title">معرض الإنجازات</h2>
+      <p class="section-sub">لحظات من رحلة التدريب والتحوّلات الحقيقية</p>
+    </div>
+    <div class="gallery-grid" id="galleryGrid">
+      <div class="g-item tall reveal-scale"><div class="ph-frame"><i class="fa-solid fa-image ph-icon"></i><div class="ph-title">ضع صورة هنا</div></div></div>
+      <div class="g-item reveal-scale"><div class="ph-frame"><i class="fa-solid fa-image ph-icon"></i><div class="ph-title">ضع صورة هنا</div></div></div>
+      <div class="g-item wide reveal-scale"><div class="ph-frame"><i class="fa-solid fa-image ph-icon"></i><div class="ph-title">ضع صورة هنا</div></div></div>
+      <div class="g-item reveal-scale"><div class="ph-frame"><i class="fa-solid fa-image ph-icon"></i><div class="ph-title">ضع صورة هنا</div></div></div>
+      <div class="g-item reveal-scale"><div class="ph-frame"><i class="fa-solid fa-image ph-icon"></i><div class="ph-title">ضع صورة هنا</div></div></div>
+      <div class="g-item tall reveal-scale"><div class="ph-frame"><i class="fa-solid fa-image ph-icon"></i><div class="ph-title">ضع صورة هنا</div></div></div>
+      <div class="g-item wide reveal-scale"><div class="ph-frame"><i class="fa-solid fa-image ph-icon"></i><div class="ph-title">ضع صورة هنا</div></div></div>
+      <div class="g-item reveal-scale"><div class="ph-frame"><i class="fa-solid fa-image ph-icon"></i><div class="ph-title">ضع صورة هنا</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section id="testimonials">
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow" style="justify-content:center;">CLIENT STORIES</div>
+      <h2 class="section-title">آراء المتدربين</h2>
+    </div>
+    <div class="testi-grid" id="testiGrid">
+      <div class="testi-card reveal">
+        <div class="testi-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <p class="testi-quote"><i class="fa-solid fa-quote-right"></i>مع الكابتن أحمد حسّيت إن في حد فاهم احتياجاتي فعلًا، النتائج ظهرت من أول شهر والالتزام سهل جدًا معاه.</p>
+        <div class="testi-person"><div class="testi-avatar"><i class="fa-solid fa-user"></i></div><div><div class="testi-name">متدرب ١</div><div class="testi-role">عميل — برنامج تخسيس</div></div></div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <p class="testi-quote"><i class="fa-solid fa-quote-right"></i>أفضل تجربة تدريب خضتها، متابعة يومية وبرنامج غذائي مضبوط غيّر شكل جسمي بالكامل خلال أشهر قليلة.</p>
+        <div class="testi-person"><div class="testi-avatar"><i class="fa-solid fa-user"></i></div><div><div class="testi-name">متدربة ٢</div><div class="testi-role">عميلة — تدريب أونلاين</div></div></div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <p class="testi-quote"><i class="fa-solid fa-quote-right"></i>احترافية عالية وصبر في الشرح، ساعدني أوصل لهدفي في بناء العضلات بطريقة صحية وآمنة.</p>
+        <div class="testi-person"><div class="testi-avatar"><i class="fa-solid fa-user"></i></div><div><div class="testi-name">متدرب ٣</div><div class="testi-role">عميل — بناء عضلات</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA / CONTACT ============ -->
+<section id="contact" class="cta-section">
+  <div class="cta-glow"></div>
+  <div class="container">
+    <div class="eyebrow" style="justify-content:center;">GET IN TOUCH</div>
+    <h2 class="section-title cta-title">جاهز تبدأ التحوّل؟</h2>
+    <p class="cta-sub">تواصل معي الآن واحجز استشارتك الأولى مجانًا، ولنبدأ رحلتك نحو هدفك سويًا.</p>
+    <a href="https://wa.me/201222909552?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%83%D8%A7%D8%A8%D8%AA%D9%86%20%D8%A3%D8%AD%D9%85%D8%AF%D8%8C%20%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%AD%D8%AC%D8%B2%20%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9%20%D9%85%D8%AC%D8%A7%D9%86%D9%8A%D8%A9" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="position:relative;z-index:1;"><i class="fa-solid fa-bolt"></i> احجز استشارتك المجانية</a>
+    <div class="contact-socials">
+      <a href="https://wa.me/201222909552" target="_blank" rel="noopener noreferrer" class="social-btn" title="واتساب" aria-label="تواصل عبر واتساب"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/coach_ahmedsalem?igsh=MTRuN2dueWpkdWhrMw==" target="_blank" rel="noopener noreferrer" class="social-btn" title="إنستجرام" aria-label="صفحة إنستجرام"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" class="social-btn" title="فيسبوك" aria-label="صفحة فيسبوك"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" class="social-btn" title="تيك توك" aria-label="حساب تيك توك"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="#" class="social-btn" title="اتصال" aria-label="اتصل الآن"><i class="fa-solid fa-phone"></i></a>
+      <a href="#" class="social-btn" title="إيميل" aria-label="راسلني بالإيميل"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <p class="contact-note">* استبدل الروابط أعلاه بحساباتك ووسائل التواصل الحقيقية.</p>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <a href="#home" class="logo">
+        <span class="mono-badge">AS</span>
+        <span class="logo-text">Ahmed <em>Salem</em></span>
+      </a>
+      <div class="footer-links">
+        <a href="#about">من أنا</a>
+        <a href="#certs">الشهادات</a>
+        <a href="#specs">التخصصات</a>
+        <a href="#gallery">المعرض</a>
+        <a href="#contact">تواصل معي</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span id="footerYear">© 2026 الكابتن أحمد سالم. جميع الحقوق محفوظة.</span>
+      <span>مدرب لياقة بدنية معتمد</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/201222909552" target="_blank" rel="noopener noreferrer" class="float-btn whatsapp-btn" title="تواصل عبر واتساب" aria-label="تواصل عبر واتساب"><i class="fa-brands fa-whatsapp"></i></a>
+<button class="float-btn to-top" id="toTop" title="العودة للأعلى" aria-label="العودة لأعلى الصفحة"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="main.js"></script>
+</body>
+</html>
